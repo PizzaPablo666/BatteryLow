@@ -18,4 +18,9 @@ to my autostart or startup applications with (&) for it work in the background.
 
 And don't forget to change the PATH in trigger.sh . (path to batterylow.sh)
 
+Also you can change the number of when the battery is low from that number POPUP. (in batterlow.sh). In this line ->
+```
+if [ "$(($BATTERY))" -lt "30" ] && [[ $ACPI == *"$DISCHARGING"* ]]; then
+```
+I have put the number 30.
 Thanks for using :)
