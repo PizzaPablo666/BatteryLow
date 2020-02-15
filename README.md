@@ -16,4 +16,6 @@ exec /PATH/TO/TRIGGER.SH &
 ```
 to my autostart or startup applications with (&) for it work in the background.
 
+And don't forget to change the PATH in trigger.sh . (path to batterylow.sh)
+
 Thanks for using :)
